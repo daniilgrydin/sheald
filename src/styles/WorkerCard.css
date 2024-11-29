@@ -1,0 +1,33 @@
+.worker-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.worker-card:hover {
+  background: #f9f9f9;
+  transform: scale(1.03);
+}
+
+.worker-risk {
+  font-size: 2rem;
+  color: #e63946;
+  font-weight: bold;
+}
+
+.worker-name {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.worker-last-online {
+  font-size: 0.8rem;
+  padding-top: 10px;
+  color: #777;
+}

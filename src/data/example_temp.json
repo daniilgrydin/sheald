@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Alice Smith",
+    "androidID": "a7b3c9d1e2f45678",
+    "entries": [
+      { "risk": 0.154, "temperature": 37.37, "timestamp": 1732843452 },
+      { "risk": 0.11, "temperature": 37.26, "timestamp": 1732843724 },
+      { "risk": 0.161, "temperature": 37.39, "timestamp": 1732844031 },
+      { "risk": 0.275, "temperature": 37.66, "timestamp": 1732844346 },
+      { "risk": 0.292, "temperature": 37.7, "timestamp": 1732844672 },
+      { "risk": 0.262, "temperature": 37.63, "timestamp": 1732844954 },
+      { "risk": 0.444, "temperature": 38.06, "timestamp": 1732845267 },
+      { "risk": 0.571, "temperature": 38.37, "timestamp": 1732845558 },
+      { "risk": 0.598, "temperature": 38.43, "timestamp": 1732845860 },
+      { "risk": 0.804, "temperature": 38.93, "timestamp": 1732846176 }
+    ]
+  },
+  {
+    "name": "Bob Doe",
+    "androidID": "b7c9d1e2f3a45678",
+    "entries": [
+      { "risk": 0.008, "temperature": 35.02, "timestamp": 1732843517 },
+      { "risk": 0.087, "temperature": 35.21, "timestamp": 1732843825 },
+      { "risk": 0.186, "temperature": 35.45, "timestamp": 1732844146 },
+      { "risk": 0.203, "temperature": 35.49, "timestamp": 1732844463 },
+      { "risk": 0.217, "temperature": 35.52, "timestamp": 1732844737 },
+      { "risk": 0.248, "temperature": 35.6, "timestamp": 1732845064 },
+      { "risk": 0.221, "temperature": 35.53, "timestamp": 1732845352 },
+      { "risk": 0.255, "temperature": 35.61, "timestamp": 1732845627 },
+      { "risk": 0.303, "temperature": 35.73, "timestamp": 1732845905 },
+      { "risk": 0.232, "temperature": 35.56, "timestamp": 1732846191 }
+    ]
+  },
+  {
+    "name": "John Coder",
+    "androidID": "c9d1e2f3a4b56789",
+    "entries": [
+      { "risk": 0.093, "temperature": 36.92, "timestamp": 1732843490 },
+      { "risk": 0.149, "temperature": 37.06, "timestamp": 1732843777 },
+      { "risk": 0.219, "temperature": 37.22, "timestamp": 1732844075 },
+      { "risk": 0.345, "temperature": 37.53, "timestamp": 1732844379 },
+      { "risk": 0.265, "temperature": 37.34, "timestamp": 1732844651 },
+      { "risk": 0.267, "temperature": 37.34, "timestamp": 1732844924 },
+      { "risk": 0.275, "temperature": 37.36, "timestamp": 1732845218 },
+      { "risk": 0.245, "temperature": 37.29, "timestamp": 1732845506 },
+      { "risk": 0.386, "temperature": 37.63, "timestamp": 1732845797 },
+      { "risk": 0.558, "temperature": 38.04, "timestamp": 1732846113 }
+    ]
+  },
+  {
+    "name": "Emily Johnson",
+    "androidID": "d0e1f2a3b4c56789",
+    "entries": [
+      { "risk": 0.172, "temperature": 36.41, "timestamp": 1732843542 },
+      { "risk": 0.207, "temperature": 36.5, "timestamp": 1732843819 },
+      { "risk": 0.12, "temperature": 36.29, "timestamp": 1732844149 },
+      { "risk": 0.264, "temperature": 36.63, "timestamp": 1732844444 },
+      { "risk": 0.445, "temperature": 37.07, "timestamp": 1732844768 },
+      { "risk": 0.574, "temperature": 37.38, "timestamp": 1732845079 },
+      { "risk": 0.711, "temperature": 37.71, "timestamp": 1732845401 },
+      { "risk": 0.713, "temperature": 37.71, "timestamp": 1732845693 },
+      { "risk": 0.882, "temperature": 38.12, "timestamp": 1732845974 },
+      { "risk": 0.894, "temperature": 38.15, "timestamp": 1732846274 }
+    ]
+  },
+  {
+    "name": "Charlie Brown",
+    "androidID": "e1f2g3h4i5j67890",
+    "entries": [
+      { "risk": 0.093, "temperature": 36.12, "timestamp": 1732843547 },
+      { "risk": 0.057, "temperature": 36.04, "timestamp": 1732843823 },
+      { "risk": 0.068, "temperature": 36.06, "timestamp": 1732844128 },
+      { "risk": 0.076, "temperature": 36.08, "timestamp": 1732844404 },
+      { "risk": 0.081, "temperature": 36.09, "timestamp": 1732844711 },
+      { "risk": 0.087, "temperature": 36.11, "timestamp": 1732845036 },
+      { "risk": 0.095, "temperature": 36.13, "timestamp": 1732845349 },
+      { "risk": 0.166, "temperature": 36.3, "timestamp": 1732845646 },
+      { "risk": 0.141, "temperature": 36.24, "timestamp": 1732845937 },
+      { "risk": 0.174, "temperature": 36.32, "timestamp": 1732846236 }
+    ]
+  }
+]

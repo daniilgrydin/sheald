@@ -1,0 +1,81 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+
+.loading-container.fade-out {
+  opacity: 0;
+  pointer-events: none; /* Optional: Avoid interaction during fade-out */
+}
+
+.cube {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  transform-style: preserve-3d;
+  animation: spin 2s infinite linear;
+}
+
+.cube .side {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  border: 2px solid #fff;
+}
+
+.cube .top {
+  transform: rotateX(90deg) translateZ(25px);
+}
+
+.cube .bottom {
+  transform: rotateX(-90deg) translateZ(25px);
+}
+
+.cube .left {
+  transform: rotateY(-90deg) translateZ(25px);
+}
+
+.cube .right {
+  transform: rotateY(90deg) translateZ(25px);
+}
+
+.cube .front {
+  transform: translateZ(25px);
+}
+
+.cube .back {
+  transform: rotateY(180deg) translateZ(25px);
+}
+
+@keyframes spin {
+  from {
+    transform: rotateX(0) rotateY(0);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  animation: fadeIn 2s infinite alternate;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
