@@ -35,7 +35,6 @@ const WorkerDetails = () => {
     });
   }, [fullName]);
 
-  const [showLoading, setShowLoading] = useState(true);
   if (!workerData) {
     return <LoadingScreen />;
   }
