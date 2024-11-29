@@ -35,7 +35,7 @@ const WorkerDetails = () => {
     });
   }, [fullName]);
 
-  if (!workerData) {
+  if (workerData.length === 0) {
     return <LoadingScreen />;
   }
 
@@ -72,7 +72,7 @@ const WorkerDetails = () => {
     if (workerData.length === 0) return false;
     const lastTimestamp = workerData[workerData.length - 1].timestamp;
     const tenMinutesAgo = Date.now() - 10 * 60 * 1000;
-    return lastTimestamp*1000 >= tenMinutesAgo;
+    return lastTimestamp * 1000 >= tenMinutesAgo;
   };
 
   return (
